@@ -1,0 +1,344 @@
+{
+  "productos": [
+    {
+      "name": "Chevrolet Onix Joy",
+      "description": "Generación 2019, variedad de colores. Motor 1.0, ideal para ciudad.",
+      "cost": 13500,
+      "currency": "USD",
+      "imgSrc": "img/prod1.jpg",
+      "soldCount": 14
+    },
+    {
+      "name": "Fiat Way",
+      "description": "La versión de Fiat que brinda confort y a un precio accesible.",
+      "cost": 14500,
+      "currency": "USD",
+      "imgSrc": "img/prod2.jpg",
+      "soldCount": 52
+    },
+    {
+      "name": "Suzuki Celerio",
+      "description": "Un auto que se ha ganado la buena fama por su economía con el combustible.",
+      "cost": 12500,
+      "currency": "USD",
+      "imgSrc": "img/prod3.jpg",
+      "soldCount": 25
+    },
+    {
+      "name": "Peugeot 208",
+      "description": "El modelo de auto que se sigue renovando y manteniendo su prestigio en comodidad.",
+      "cost": 15200,
+      "currency": "USD",
+      "imgSrc": "img/prod4.jpg",
+      "soldCount": 17
+    }
+  ],
+  "categorias": [
+    {
+      "name": "Autos",
+      "description": "Los mejores precios en autos 0 kilómetro, de alta y media gama.",
+      "productCount": "122",
+      "imgSrc": "img/cat1.jpg"
+    },
+    {
+      "name": "Juguetes",
+      "description": "Encuentra aquí los mejores precios para niños/as de cualquier edad.",
+      "productCount": "354",
+      "imgSrc": "img/cat2.jpg"
+    },
+    {
+      "name": "Muebles",
+      "description": "Muebles antiguos, nuevos y para ser armados por uno mismo.",
+      "productCount": "157",
+      "imgSrc": "img/cat3.jpg"
+    },
+    {
+      "name": "Herramientas",
+      "description": "Herramientas para cualquier tipo de trabajo.",
+      "productCount": "452",
+      "imgSrc": "img/cat4.jpg"
+    },
+    {
+      "name": "Computadoras",
+      "description": "Todo en cuanto a computadoras, para uso de oficina y/o juegos.",
+      "productCount": "724",
+      "imgSrc": "img/cat5.jpg"
+    },
+    {
+      "name": "Vestimenta",
+      "description": "Gran variedad de ropa, nueva y de segunda mano.",
+      "productCount": "841",
+      "imgSrc": "img/cat6.jpg"
+    },
+    {
+      "name": "Electrodomésticos",
+      "description": "Todos los electrodomésticos modernos y de bajo consumo.",
+      "productCount": "84",
+      "imgSrc": "img/cat7.jpg"
+    },
+    {
+      "name": "Deporte",
+      "description": "Toda la variedad de indumentaria para todo tipo de deporte.",
+      "productCount": "574",
+      "imgSrc": "img/cat8.jpg"
+    },
+    {
+      "name": "Celulares",
+      "description": "Celulares de todo tipo para cubrir todas las necesidades.",
+      "productCount": "124",
+      "imgSrc": "img/cat9.jpg"
+    }
+  ],
+  "categoriaInfo": {
+    "name": "Autos",
+    "description": "Encuentra aquí los mejores precios para niños/as de cualquier edad.",
+    "productCriteria": "Incluya aquí los productos que sean autos o relacionados: repuestos, accesorios, etc.",
+    "productCount": "122",
+    "images": [
+      "img/cat1.jpg",
+      "img/car1.jpg",
+      "img/car2.jpg",
+      "img/car3.jpg"
+    ]
+  },
+  "productoInfo": {
+    "name": "Chevrolet Onix Joy",
+    "description": "Potenciá tu actitud con Onix Joy que, además de destacarse por su diseño juvenil y moderno, te ofrecé una óptima autonomía, un desempeño equilibrado y el máximo confort interior. <br>Ya sea un viaje largo o un simple paseo por la ciudad, el confort es uno de los puntos fuertes del Onix. Esta versión incluye aire acondicionado, asientos tapizados en tela y gran espacio interior que te garantiza el máximo confort.",
+    "cost": 13500,
+    "currency": "USD",
+    "soldCount": 14,
+    "category": "Autos",
+    "images": [
+      "img/prod1.jpg",
+      "img/prod1_1.jpg",
+      "img/prod1_2.jpg",
+      "img/prod1_3.jpg",
+      "img/prod1_4.jpg"
+    ],
+    "relatedProducts": [
+      1,
+      3
+    ]
+  },
+  "carritoProductos": {
+    "articles": [
+      {
+        "count": 2,
+        "currency": "UYU",
+        "src": "img/tree1.jpg",
+        "name": "Pino de olor para el auto",
+        "unitCost": 100
+      },
+      {
+        "count": 1,
+        "currency": "USD",
+        "src": "img/prod2.jpg",
+        "name": "Fiat Way",
+        "unitCost": 14500
+      },
+      {
+        "count": 1,
+        "currency": "USD",
+        "src": "img/prod4.jpg",
+        "name": "Peugeot 208",
+        "unitCost": 15200
+      },
+      {
+        "count": 1,
+        "currency": "USD",
+        "src": "img/prod3.jpg",
+        "name": "Suzuki Celerio",
+        "unitCost": 12500
+      },
+      {
+        "count": 1,
+        "currency": "USD",
+        "src": "img/prod1_1.jpg",
+        "name": "Chevrolet Onix Joy",
+        "unitCost": 13500
+      }
+    ]
+  },
+  "comentarios": [
+    {
+      "score": 3,
+      "description": "Ya llevo un año con este auto y la verdad que tiene sus ventajas y desventajas",
+      "user": "juan_pedro",
+      "dateTime": "2020-02-25 18:03:52"
+    },
+    {
+      "score": 5,
+      "description": "Es un auto muy cómodo y en relación precio/calidad vale la pena!",
+      "user": "maria_sanchez",
+      "dateTime": "2020-01-17 13:42:18"
+    },
+    {
+      "score": 4,
+      "description": "Casi todo bien!, excepto por algún detalle de gusto personal",
+      "user": "paola_perez",
+      "dateTime": "2020-03-14 09:05:13"
+    },
+    {
+      "score": 5,
+      "description": "Un espectáculo el auto!",
+      "user": "pablo_gomez",
+      "dateTime": "2020-02-21 15:05:22"
+    },
+    {
+      "id": "ff629146-3102-492f-a89d-0698b79edcf7",
+      "score": 4,
+      "description": "Hola, Excelente el auto, me encanta.",
+      "user": "larrosamarcos",
+      "dateTime": "6_11_2020 15:14:6"
+    },
+    {
+      "id": "53076757-9377-436b-8570-15c73f57cd18",
+      "score": 3,
+      "description": "Hola esta muy bueno, lo recomiendo.",
+      "user": "MarcosCorrea",
+      "dateTime": "8_11_2020 14:9:57"
+    },
+    {
+      "id": "1f6bb54a-03b1-46d9-b411-c7b73ae4d83d",
+      "score": 2,
+      "description": "No me gusto, no rinde nada.",
+      "user": "EnzoNicolich",
+      "dateTime": "8_11_2020 14:15:31"
+    },
+    {
+      "id": "148ab92b-3701-4a7c-a974-26c27ee12dac",
+      "score": 5,
+      "description": "Tremenda maquina. Recomendable.",
+      "user": "DominiqueFurest",
+      "dateTime": "8_11_2020 16:40:59"
+    }
+  ],
+  "productosComprados": [
+    {
+      "id": null,
+      "img": "img/tree1.jpg",
+      "name": "Pino de olor para el auto",
+      "cost": 100,
+      "count": 2
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/prod2.jpg",
+      "name": "Fiat Way",
+      "cost": 14500,
+      "count": 1
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/prod3.jpg",
+      "name": "Suzuki Celerio",
+      "cost": 12500,
+      "count": 1
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/tree1.jpg",
+      "name": "Pino de olor para el auto",
+      "cost": 100,
+      "count": 2
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/prod2.jpg",
+      "name": "Fiat Way",
+      "cost": 14500,
+      "count": 1
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/prod4.jpg",
+      "name": "Peugeot 208",
+      "cost": 15200,
+      "count": 1
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/prod1_1.jpg",
+      "name": "Chevrolet Onix Joy",
+      "cost": 13500,
+      "count": 1
+    },
+    {
+      "id": "Enzo Nicolich",
+      "img": "img/prod2.jpg",
+      "name": "Fiat Way",
+      "cost": 14500,
+      "count": 1
+    },
+    {
+      "id": "Enzo Nicolich",
+      "img": "img/prod4.jpg",
+      "name": "Peugeot 208",
+      "cost": 15200,
+      "count": 1
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/prod2.jpg",
+      "name": "Fiat Way",
+      "cost": 14500,
+      "count": 1
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/prod4.jpg",
+      "name": "Peugeot 208",
+      "cost": 15200,
+      "count": 1
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/tree1.jpg",
+      "name": "Pino de olor para el auto",
+      "cost": 100,
+      "count": 2
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/prod1_1.jpg",
+      "name": "Chevrolet Onix Joy",
+      "cost": 13500,
+      "count": 1
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/prod3.jpg",
+      "name": "Suzuki Celerio",
+      "cost": 12500,
+      "count": 1
+    },
+    {
+      "id": "Dominique Furest",
+      "img": "img/prod1_1.jpg",
+      "name": "Chevrolet Onix Joy",
+      "cost": 13500,
+      "count": 1
+    },
+    {
+      "id": "Dominique Furest",
+      "img": "img/prod4.jpg",
+      "name": "Peugeot 208",
+      "cost": 15200,
+      "count": 1
+    },
+    {
+      "id": "Dominique Furest",
+      "img": "img/tree1.jpg",
+      "name": "Pino de olor para el auto",
+      "cost": 100,
+      "count": 2
+    },
+    {
+      "id": "Dominique Furest",
+      "img": "img/prod2.jpg",
+      "name": "Fiat Way",
+      "cost": 14500,
+      "count": 1
+    }
+  ]
+}
