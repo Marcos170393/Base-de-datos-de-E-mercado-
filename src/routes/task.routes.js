@@ -17,6 +17,7 @@ router.get('/buy-registry',getRegistroDeCompras);
 
 router.post('/comments', createComentario);
 router.post('/buy-registry',guardarRegistroCompras);
+
 //se exporta el objeto importado desde express
 module.exports = router;
 
