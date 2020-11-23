@@ -1,5 +1,6 @@
-const { getConection } = require('../database');
-const { v4 } = require('uuid')
+const { getConection, getConectPublications } = require('../database');
+const { v4 } = require('uuid');
+const { get } = require('../routes/task.routes');
 
 //..........
     //METODOS GET
@@ -36,7 +37,12 @@ const getCarritoProductos = (req, res) => {
 
 const getRegistroDeCompras = (req, res) => {
     const registro = getConection().get('productosComprados');
-    res.json(registro)
+    res.json(registro);
+}
+
+const getNuevasPublicaciones = (req, res) => {
+    const productos = getConectPublications().get('nuevasPublicaciones');
+    res.json(productos);
 }
 //..........
     //FIN METODOS GET
@@ -45,6 +51,20 @@ const getRegistroDeCompras = (req, res) => {
 //..........
     //METODOS POST
 //.........
+const createPublication = (req, res) => {
+    const newTask = {
+        name: req.body.name,
+        description: req.body.description,
+        cost: req.body.cost,
+        currency: req.body.currency,
+        imgSrc: req.body.imgSrc,
+        soldCount: req.body.selled
+    };
+
+    getConectPublications().get('nuevasPublicaciones').push(newTask).write();
+    console.log(newTask);
+    res.send(newTask);
+}
 
 const createComentario = (req, res) => {
     const newTask = {
@@ -85,7 +105,9 @@ module.exports = {
     getComentarios,
     getCarritoProductos,
     getRegistroDeCompras,
+    getNuevasPublicaciones,
     createComentario,
-    guardarRegistroCompras
+    guardarRegistroCompras,
+    createPublication
     
 }

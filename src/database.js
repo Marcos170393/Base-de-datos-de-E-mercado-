@@ -4,6 +4,7 @@ const FILE_ASYNC = require('lowdb/adapters/FileAsync');
 // se llama a este motedo FileAsync ya que el proyecto simula una API REST y tendra multiples solicitudes 
 //simultanes por lo tanto es mejor que sean solicitudes asincronas para que puedas responderse de forma simultanea
 
+//Base de datos 
 let db;
 
 async function createConection(){
@@ -16,10 +17,25 @@ async function createConection(){
         ).write(); // con write modificamos el archivo.
 }
 
+//Base de datos con productos nuevos
+let dbIMG;
+
+async function createConectionImg(){
+    const adapter = new FILE_ASYNC('db-products.json');
+    dbIMG = await LOWDB(adapter);
+
+    dbIMG.defaults(
+        {nuevasPublicaciones:[]}
+    ).write();
+}
+
 // esto se hace para poder accedor a esta variable db, desde otros documentos.
 const getConection = () => db;
+const getConectPublications = () => dbIMG;
 
 module.exports = {
     createConection,
-    getConection
+    getConection,
+    createConectionImg,
+    getConectPublications
 }
