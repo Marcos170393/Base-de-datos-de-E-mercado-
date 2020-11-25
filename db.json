@@ -374,6 +374,62 @@
       "name": "Chevrolet Onix Joy",
       "cost": 13500,
       "count": 1
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/tree1.jpg",
+      "name": "Pino de olor para el auto",
+      "cost": 100,
+      "count": 2
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/prod2.jpg",
+      "name": "Fiat Way",
+      "cost": 14500,
+      "count": 1
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/prod4.jpg",
+      "name": "Peugeot 208",
+      "cost": 15200,
+      "count": 1
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/prod3.jpg",
+      "name": "Suzuki Celerio",
+      "cost": 12500,
+      "count": 1
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/tree1.jpg",
+      "name": "Pino de olor para el auto",
+      "cost": 100,
+      "count": 2
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/prod2.jpg",
+      "name": "Fiat Way",
+      "cost": 14500,
+      "count": 1
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/prod3.jpg",
+      "name": "Suzuki Celerio",
+      "cost": 12500,
+      "count": 1
+    },
+    {
+      "id": "Marcos Correa",
+      "img": "img/prod4.jpg",
+      "name": "Peugeot 208",
+      "cost": 15200,
+      "count": 1
     }
   ]
 }

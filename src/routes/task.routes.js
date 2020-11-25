@@ -20,7 +20,7 @@ router.post('/comments', createComentario);
 router.post('/buy-registry',guardarRegistroCompras);
 router.post('/new-products', createPublication)
 
-//se exporta el objeto importado desde express
+//se exporta el objeto router importado desde express
 module.exports = router;
 
 

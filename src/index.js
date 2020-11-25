@@ -7,4 +7,4 @@ createConection(); // inicia la base de datos
 createConectionImg();
 app.listen(4000);// inicia el servidor
 
-console.log('Server on port', 4000);
+console.log('Server on port', 4200);
