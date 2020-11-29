@@ -85,7 +85,10 @@ const guardarRegistroCompras = (req, res) => {
         img: req.body.src,
         name: req.body.name,
         cost: req.body.unitCost,
-        count: req.body.count
+        count: req.body.count,
+        address: req.body.address,
+        location: req.body.location,
+        date: req.body.date
     };
     getConection().get('productosComprados').push(newTask).write();
     console.log(newTask);
