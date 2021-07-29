@@ -1,6 +1,7 @@
 //lowdb es un framework que genera una base de datos, y aloja toda la informacion en un archivo json, el cual tambien se puede editar.
 const LOWDB = require('lowdb');
 const FILE_ASYNC = require('lowdb/adapters/FileAsync');
+
 // se llama a este motedo FileAsync ya que el proyecto simula una API REST y tendra multiples solicitudes 
 //simultanes por lo tanto es mejor que sean solicitudes asincronas para que puedas responderse de forma simultanea
 
@@ -29,13 +30,28 @@ async function createConectionImg(){
     ).write();
 }
 
+// Base de datos de usuarios
+let dbUsers;
+
+async function createConectionUsers(){
+    const adapter = new FILE_ASYNC('db-users.json');
+    dbUsers = await LOWDB(adapter);
+
+    dbUsers.defaults(
+        {usuarios:[]}
+    ).write();
+}
+
 // esto se hace para poder accedor a esta variable db, desde otros documentos.
 const getConection = () => db;
 const getConectPublications = () => dbIMG;
+const getConectionUsers = () => dbUsers;
 
 module.exports = {
     createConection,
     getConection,
     createConectionImg,
-    getConectPublications
+    getConectPublications,
+    createConectionUsers,
+    getConectionUsers
 }
